@@ -35,7 +35,7 @@ public class Rectangles extends JApplet {
 				widthStr = JOptionPane.showInputDialog(null, "Enter the width of the rectangle.", "Width", JOptionPane.PLAIN_MESSAGE);
 				if (widthStr == null)
 					System.exit(0);
-				width = Integer.parseInt(widthStr);/
+				width = Integer.parseInt(widthStr);
 					
 				while (width < 0) {
 					JOptionPane.showMessageDialog(null, "INVALID ENTRY!", "ERROR", JOptionPane.ERROR_MESSAGE);
